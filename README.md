@@ -3,9 +3,9 @@
 ### Creational
 - [ ] Factory Method
 - [ ] Abstract Factory
-- [ ] Builder
-- [ ] Prototype
-- [ ] Singleton
+- [x] Builder
+- [x] Prototype
+- [x] Singleton
 
 ### Structural
 - [ ] Adapter

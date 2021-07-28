@@ -1,0 +1,10 @@
+import { Bridge } from "./Bridge/bridge";
+import { Builder } from "./Builder/builder";
+import { Decorator } from "./Decorator/decorator";
+import { Prototype } from "./Prototype/prototype";
+import { Singleton } from "./Singleton/singleton";
+// Singleton();
+// Bridge();
+// Decorator();
+// Builder();
+Prototype();
