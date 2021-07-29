@@ -5,12 +5,17 @@ export const Prototype = (): void => {
     removeItem: (item: number) => void;
     getTotal: () => number;
   }
+  type OrderProps = {
+    clone?: Order;
+    items?: number[];
+  };
   class Order implements Orders {
     number: string;
     items: number[];
     price: number;
-    constructor(config) {
+    constructor(config: OrderProps) {
       this.items = config.items ?? config.clone.items;
+      this.price = 0 ?? config.clone.price;
     }
 
     addItem(item: number) {

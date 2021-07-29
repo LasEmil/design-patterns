@@ -1,8 +1,8 @@
 ## Design patterns
 
 ### Creational
-- [ ] Factory Method
-- [ ] Abstract Factory
+- [x] Factory Method
+- [x] Abstract Factory
 - [x] Builder
 - [x] Prototype
 - [x] Singleton

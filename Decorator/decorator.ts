@@ -28,16 +28,12 @@ export const Decorator = (): void => {
       this.src = src;
       this.tag = tag;
     }
-    public getProperties() {
-      return { src: this.src, tag: this.tag };
-    }
     @validateForbiddenTags(["a", "svg"])
     exec() {
       return `<${this.tag}>${this.src}</${this.tag}>`;
     }
   }
 
-  const wrapper = new TagWrapper("Hello", "div");
-  const wrappedText = wrapper.exec();
+  const wrappedText = new TagWrapper("Hello", "div").exec();
   console.log(wrappedText);
 };

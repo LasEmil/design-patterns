@@ -44,7 +44,6 @@ export const Builder = (): void => {
     }
 
     exec() {
-      console.log(this.query);
       const queryValues = Object.entries(this.query);
       let queryString = ``;
       for (const [key, value] of queryValues) {
