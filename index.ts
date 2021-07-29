@@ -6,8 +6,10 @@ import { Decorator } from "./Decorator/decorator";
 import { Facade } from "./Facade/facade";
 import { Factory } from "./Factory/factory";
 import { Prototype } from "./Prototype/prototype";
+import { Proxy } from "./Proxy/proxy";
 import { Singleton } from "./Singleton/singleton";
-Facade();
+Proxy();
+/* Facade(); */
 // Adapter();
 // AbstractFactory();
 // Factory();
