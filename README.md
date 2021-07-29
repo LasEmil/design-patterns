@@ -14,7 +14,7 @@
 - [x] Decorator
 - [x] Facade
 - [ ] Flyweight
-- [ ] Proxy
+- [x] Proxy
 
 ### Behavioral
 - [ ] Chain of Responsibilty
