@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-export const Adapter = (): void => {
+export const Adapter = async (): Promise<void> => {
   class TranslationConsumer {
     translations: TranslationProvider;
     constructor(translations: TranslationProvider) {
@@ -54,9 +54,8 @@ export const Adapter = (): void => {
   // );
   const TranslationAdapter = new PropertiesToJsonAdapter(provider);
   const adaptedConsumer = new TranslationConsumer(TranslationAdapter);
-  adaptedConsumer
-    .getTranslation("baseGroup.PDJPDG1-svrMessageLogger.filterNames")
-    .then((translation) => {
-      console.log(translation);
-    });
+  const translation = await adaptedConsumer.getTranslation(
+    "baseGroup.PDJPDG1-svrMessageLogger.filterNames"
+  );
+  console.log(translation);
 };
