@@ -8,6 +8,7 @@
   "private": true,
   "devDependencies": {
     "@types/node": "^16.4.5",
+    "@types/sharp": "^0.28.5",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
     "eslint": "^7.31.0",
@@ -21,7 +22,11 @@
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2"
   },
+  "scripts": {
+    "start": "nodemon"
+  },
   "dependencies": {
+    "sharp": "^0.28.3",
     "typescript": "^4.3.5"
   }
 }
