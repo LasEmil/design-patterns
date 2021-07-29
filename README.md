@@ -8,7 +8,7 @@
 - [x] Singleton
 
 ### Structural
-- [ ] Adapter
+- [x] Adapter
 - [x] Bridge
 - [ ] Composite
 - [x] Decorator

@@ -1,11 +1,13 @@
 import { AbstractFactory } from "./AbstractFactory/abstractFactory";
+import { Adapter } from "./Adapter/adapter";
 import { Bridge } from "./Bridge/bridge";
 import { Builder } from "./Builder/builder";
 import { Decorator } from "./Decorator/decorator";
 import { Factory } from "./Factory/factory";
 import { Prototype } from "./Prototype/prototype";
 import { Singleton } from "./Singleton/singleton";
-AbstractFactory();
+Adapter();
+// AbstractFactory();
 // Factory();
 // Singleton();
 // Bridge();
