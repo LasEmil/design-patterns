@@ -13,7 +13,7 @@
 - [ ] Composite
 - [x] Decorator
 - [x] Facade
-- [ ] Flyweight
+- [x] Flyweight
 - [x] Proxy
 
 ### Behavioral

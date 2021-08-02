@@ -1,15 +1,22 @@
-import { AbstractFactory } from "./AbstractFactory/abstractFactory";
-import { Adapter } from "./Adapter/adapter";
-import { Bridge } from "./Bridge/bridge";
-import { Builder } from "./Builder/builder";
-import { Decorator } from "./Decorator/decorator";
-import { Facade } from "./Facade/facade";
-import { Factory } from "./Factory/factory";
-import { Prototype } from "./Prototype/prototype";
-import { Proxy } from "./Proxy/proxy";
-import { Singleton } from "./Singleton/singleton";
-Proxy();
-/* Facade(); */
+import {
+  AbstractFactory,
+  Builder,
+  Factory,
+  Prototype,
+  Singleton,
+} from "./creational";
+import {
+  Adapter,
+  Bridge,
+  Decorator,
+  Facade,
+  Flyweight,
+  Proxy,
+} from "./structural";
+
+Flyweight();
+// Proxy();
+// Facade();
 // Adapter();
 // AbstractFactory();
 // Factory();
