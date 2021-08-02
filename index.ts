@@ -8,13 +8,14 @@ import {
 import {
   Adapter,
   Bridge,
+  Composite,
   Decorator,
   Facade,
   Flyweight,
   Proxy,
 } from "./structural";
-
-Flyweight();
+Composite();
+// Flyweight();
 // Proxy();
 // Facade();
 // Adapter();

@@ -10,7 +10,7 @@
 ### Structural
 - [x] Adapter
 - [x] Bridge
-- [ ] Composite
+- [x] Composite
 - [x] Decorator
 - [x] Facade
 - [x] Flyweight
