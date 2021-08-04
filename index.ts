@@ -1,4 +1,11 @@
-import { Command, Iterator, Memento, Observer, State } from "./behavioral";
+import {
+  ChainOfResponsibility,
+  Command,
+  Iterator,
+  Memento,
+  Observer,
+  State,
+} from "./behavioral";
 import {
   AbstractFactory,
   Builder,
@@ -15,7 +22,8 @@ import {
   Flyweight,
   Proxy,
 } from "./structural";
-Memento();
+ChainOfResponsibility();
+// Memento();
 // Iterator();
 // Command();
 // State();

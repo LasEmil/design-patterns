@@ -17,7 +17,7 @@
 - [x] Proxy
 
 ### Behavioral
-- [ ] Chain of Responsibilty
+- [x] Chain of Responsibilty
 - [x] Command
 - [x] Iterator
 - [ ] Mediator

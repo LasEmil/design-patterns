@@ -1,3 +1,4 @@
+export { ChainOfResponsibility } from "./ChainOfResponsibility/chainOfResponsibility";
 export { Command } from "./Command/command";
 export { Iterator } from "./Iterator/iterator";
 export { Memento } from "./Memento/memento";
