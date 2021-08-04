@@ -1,4 +1,4 @@
-import { Observer } from "./behavioral";
+import { Observer, State } from "./behavioral";
 import {
   AbstractFactory,
   Builder,
@@ -15,7 +15,8 @@ import {
   Flyweight,
   Proxy,
 } from "./structural";
-Observer();
+State();
+// Observer();
 // Composite();
 // Flyweight();
 // Proxy();
