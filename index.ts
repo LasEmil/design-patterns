@@ -2,6 +2,7 @@ import {
   ChainOfResponsibility,
   Command,
   Iterator,
+  Mediator,
   Memento,
   Observer,
   State,
@@ -22,7 +23,8 @@ import {
   Flyweight,
   Proxy,
 } from "./structural";
-ChainOfResponsibility();
+Mediator();
+// ChainOfResponsibility();
 // Memento();
 // Iterator();
 // Command();
