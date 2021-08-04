@@ -21,7 +21,7 @@
 - [x] Command
 - [x] Iterator
 - [ ] Mediator
-- [ ] Memento
+- [x] Memento
 - [x] Observer
 - [x] State
 - [ ] Strategy
