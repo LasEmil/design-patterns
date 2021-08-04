@@ -18,8 +18,8 @@
 
 ### Behavioral
 - [ ] Chain of Responsibilty
-- [ ] Command
-- [ ] Iterator
+- [x] Command
+- [x] Iterator
 - [ ] Mediator
 - [ ] Memento
 - [x] Observer

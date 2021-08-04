@@ -1,0 +1,51 @@
+{
+	"users": [
+		{
+			"id": "1",
+			"friends": [
+				{
+					"id": "2",
+					"type": "coworker"
+				},
+				{
+					"id": "3",
+					"type": "coworker"
+				},
+				{
+					"id": "4",
+					"type": "friend"
+				},
+				{
+					"id": "5",
+					"type": "friend"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"friends": [
+				{
+					"id": "1",
+					"type": "coworker"
+				},
+				{
+					"id": "3",
+					"type": "friend"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"friends": [
+				{
+					"id": "1",
+					"type": "coworker"
+				},
+				{
+					"id": "4",
+					"type": "coworker"
+				}
+			]
+		}
+	]
+}
