@@ -24,6 +24,6 @@
 - [x] Memento
 - [x] Observer
 - [x] State
-- [ ] Strategy
+- [x] Strategy
 - [ ] Template method
-- [ ] Visitor
+- [x] Visitor

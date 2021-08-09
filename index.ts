@@ -6,6 +6,8 @@ import {
   Memento,
   Observer,
   State,
+  Strategy,
+  Visitor,
 } from "./behavioral";
 import {
   AbstractFactory,
@@ -23,7 +25,9 @@ import {
   Flyweight,
   Proxy,
 } from "./structural";
-Mediator();
+Visitor();
+// Strategy();
+// Mediator();
 // ChainOfResponsibility();
 // Memento();
 // Iterator();

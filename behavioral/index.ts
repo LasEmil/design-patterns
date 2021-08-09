@@ -5,3 +5,5 @@ export { Mediator } from "./Mediator/mediator";
 export { Memento } from "./Memento/memento";
 export { Observer } from "./Observer/observer";
 export { State } from "./State/state";
+export { Strategy } from "./Strategy/strategy";
+export { Visitor } from "./Visitor/visitor";
