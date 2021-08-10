@@ -7,6 +7,7 @@ import {
   Observer,
   State,
   Strategy,
+  TemplateMethod,
   Visitor,
 } from "./behavioral";
 import {
@@ -25,7 +26,8 @@ import {
   Flyweight,
   Proxy,
 } from "./structural";
-Visitor();
+TemplateMethod();
+// Visitor();
 // Strategy();
 // Mediator();
 // ChainOfResponsibility();
